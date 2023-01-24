@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+p{
+  margin: 0 auto;
+}
+a:hover{
+  text-decoration: none;
+}
+.Rectangle-1 {
+    width: 100%;
+    height: 92px;
+    box-shadow: 0 3px 23px 0 rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    display: flex;
+    justify-content:space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+    
+    
+  }
+.logo {
+    max-width:130px;
+    padding-left: 20px;
+    padding-top: 20px;    
+  }
+  .buttons{
+      float: right;
+      flex: 0 0 auto;
+      width: auto;
+      max-width: 100%;
+      position: relative;
+      padding-top: 10px;
+  }
+  .button{
+        flex-direction: row;
+        min-width: 156.6px;
+        height: 45px;
+        border-radius: 23px;
+        border: solid 1px #cfc6c6;
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        vertical-align: top;
+        text-align: center;
+        padding: 13px 26px;
+        line-height: 1.36;
+        font-weight: 700;
+        font-size: 0.875rem;
+        background-color: #ffffff;
+        color: #1a1a19;
+        text-transform: uppercase;
+        transition: .4s ease-in-out;
+  }
+  .button:hover{
+    background-color: #ff9999;
+    color: #ffffff;
+  }
+ .button1{
+   margin-right: 20px;
+ }
+  .poster{
+     
+      width: 100%;
+      height: 677.4px;
+      background-position: center;
+  }
+  img{
+    height: auto;
+  }
+  .banner {
+    margin: auto;
+    width: 100%;
+}
+  
+.header-container {
+  
+  
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+  
+}
+.container {
+  width: 1200px;
+  
+  margin-right: auto;
+  margin-left: auto;
+}
+.message{
+  display: block;
+  
+  font-family: "Playfair Display", serif;
+  font-size: 76px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+  
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+  margin-left: 114px; 
+  z-index: 99;
+}
+
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #f8adb1;
+  opacity: 0.83;
+  z-index: 0;
+  margin-top: -10px;
+  top: 25%;
+  left: 25%;
+ 
+}
+.banner-container{
+
+  background-image: url("image/closeup.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/*schon*/
+
+.schon{
+    position: relative;
+    width: 100%;
+    height: 677.4px;
+    display: block;
+    background: url(nail.png) no-repeat top center #fff;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    padding: 100px 0;  
+}
+
+.nail{
+  z-index: -1;
+  width: 100%;
+}
+
+.nail-container{
+  position: relative;
+}
+.hr{
+  border: 0;
+height: 1px;
+width:25%;
+
+background: #333;
+}
+
+.Schönheitskonferenz{
+  display: inline-block;
+  font-family: 'Playfair Display',serif;
+  font-size: 3.125rem;
+  line-height: 2.24;
+  font-weight: 400;
+  color: #232323;
+  font-style: italic;
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+.date-time{
+font-family: Lato;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #232323;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.Element {
+  width: 86px;
+  height: 20px;
+  
+}
