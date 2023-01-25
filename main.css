@@ -31,7 +31,7 @@ p{
   margin: 0 auto;
 }
 a:hover{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .Rectangle-1 {
     width: 100%;
@@ -419,4 +419,344 @@ grid-gap: 20px;
 }
 input[type=submit]{
   transition: .4s ease-in-out;
+}
+
+/*form*/
+
+.form-ab{
+  margin-top: 66px;
+  width:40%;
+  margin-left: 100px;
+  margin-right: 100px;
+  float:right;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #dcdbdb;
+  font-family: Poppins;
+  line-height: 1.75;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  
+}
+.ticket-text{
+  float: left;
+}
+
+input[type=text], textarea {
+  
+  padding: 12px;
+  border: 1px solid #dcdbdb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  width: -webkit-fill-available;
+  border: solid 1px #f2f2f2;
+  background-color: #f8f8f8;
+  
+  font-size: 12px;
+
+}
+
+input[type=submit] {
+  text-transform: uppercase;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border: solid 1px #cfc6c6;  
+  border-radius: 23px;
+  background-color: #ff9999;
+  margin-top: 27.6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(252, 252, 252);
+  border: solid 1px #cfc6c6;
+  color: #1a1a19;
+}
+.blue-link{
+  color: #108efc;
+}
+
+.checkbox-p{
+  padding-top: 4px; 
+  font-size: 12px;
+}
+
+/*form complete*/
+/* text before form */
+.Ticket-Optionen {
+  width: 351px;
+  height: 67px;
+  font-family: PlayfairDisplay;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.24;
+  letter-spacing: -0.75px;
+  text-align: left;
+  color: #232323;
+}
+.text-style-1 {
+  font-weight: normal;
+  font-style: italic;
+}
+.Mageschneidert{
+  font-family: PlayfairDisplay;
+  font-size: 29px;
+  line-height: 2.14;
+  letter-spacing: -0.44px;
+  text-align: left;
+  color: #232323;
+}
+
+
+.listinner{
+  list-style: none;
+  display: flex;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width:346px;
+}
+
+.listinner:before{
+content: "";
+width: 7px;
+height:7px;
+border-radius: 50%;
+border: 1px solid #ff9999;
+display: block;
+margin-top: 15px;
+min-width: 7px;
+}
+
+.content-ticket{
+  padding-left: 15px;
+}
+
+.listinnerp{
+  font-family: Lato;
+  font-style: italic;  
+  line-height: 1.61;
+  text-align: left;
+  color: #9c9da7;
+}
+.listinnerh{
+  font-weight: bold;
+  color: #151516;
+}
+
+
+/* text before form finish*/
+
+/* page 7*/
+
+.conference-schedule{
+  text-align: center;
+  margin-top: 200px;
+}
+.days{
+  height: 108px;
+  background-color: #2d2d2d;
+  margin-top: 40px;
+  border-radius: 5px 5px 0 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.dayp{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.day1{
+  width: 122.3px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #4c4c4c;
+  margin:10.7px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.21px;
+  color: #ffffff;
+}
+.day2{
+  width: 122.3px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #4c4c4c;
+  margin:10.7px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.21px;
+  color: #ffffff;
+}
+.day3{
+  width: 122.3px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #4c4c4c;
+  margin:10.7px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.21px;
+  background-color: #ff9999;
+  color: #ffffff;
+}
+.mainhall{
+  height: 67px;
+  background-color: #f0f0f0;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.21px;
+  text-align: left;
+  color: #2d2d2d;
+  margin-bottom: 0;
+}
+.submainhall{
+  display: flex;
+
+}
+.subhalll{
+  float: left;
+ text-align: center;
+  width: 50%;
+  border-right: solid 1px #c5c5c5;
+}
+.subhallr{
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+.heading{
+  font-family: PlayfairDisplay;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.24;
+  letter-spacing: -0.38px;
+  text-align: center;
+  color: #232323;
+  margin-top: 41px;
+  margin-bottom: 47px;
+}
+.info7{
+  display: flex; 
+  padding: 21px;
+  
+}
+.author-image7{
+  float: left;
+  width: 30%; 
+  border-radius: 50%;
+}
+
+.show-details{
+  float: right;
+  width:70%;
+}
+.button7{
+  text-transform: uppercase;
+  color: black;
+  padding: 12px 20px;
+  width: 145px;
+  border: none;
+  border: solid 1px #cfc6c6;  
+  border-radius: 23px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.18px;
+  margin-top: 18px;
+  transition: .4s ease-in-out;
+}
+.button7:hover{
+  background-color: #ff9999;
+  color: white;
+}
+.name7{
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.81px;
+  text-align: left;
+  color: #a9a0a0;
+}
+.details7{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.94;
+  letter-spacing: -0.24px;
+  text-align: left;
+  color: #232323;
+}
+.timings7{
+  font-family: OpenSans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.38;
+  letter-spacing: 5.04px;
+  text-align: left;
+  color: #a9a0a0;
+}
+.tickets{
+  font-family: Lato;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.21;
+  text-align: left;
+  color: #ff8748;
+}
+
+hr { 
+  display: block;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 75%;
+  margin-top: 114px;
+} 
+
+.form-ab2{
+  padding: 48.5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: solid 1px #dcdbdb;
+  font-family: Poppins;
+  line-height: 1.75;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin: 48px;
 }
