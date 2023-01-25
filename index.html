@@ -1,54 +1,63 @@
-<!DOCTYPE html>
 <html>
     <head>
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-          <link rel="stylesheet" type="text/css" href="main.css">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-          <link rel="stylesheet" type="text/css" href="responsive-css.css">          
-          <script>
-            $(window).on('resize',function(){location.reload();});  
-            var sliderActive = false;
-    var slider;
-    
-     function createSlider() {
-         slider = jQuery('.if-slider').bxSlider({
-            adaptiveHeight: false,
-            swipeThreshold: 40,
-            controls: true,
-            auto: true,
-            pause: 6000,
-            autoHover: true,
-          });
-          return true;
-    }
-    
-    //create slider if page is not wide
-    jQuery(document).ready(function(){
-        if (window.innerWidth < 600) {
-            sliderActive = createSlider();
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+       <script>
+                $(window).on('resize',function(){location.reload();});  
+                var sliderActive = false;
+        var slider;
+        
+         function createSlider() {
+             slider = jQuery('.if-slider').bxSlider({
+                adaptiveHeight: false,
+                swipeThreshold: 40,
+                controls: true,
+                auto: true,
+                pause: 6000,
+                autoHover: true,
+              });
+              return true;
         }
-    });
-    
-    //create/destroy slider based on width
-    jQuery(window).resize(function () {
-    
-        //if narrow and no slider, create slider 
-        if (window.innerWidth < 600 && sliderActive == false ) {
-            sliderActive = createSlider();
-        }
-    
-        //else if wide and active slider, destroy slider 
-        else if (window.innerWidth > 600 && sliderActive == true){
-            slider.destroySlider();
-            sliderActive = false;
-        }
-        //else if wide and active slider, or narrow and no slider, do nothing
-    });
-   
-        </script>
-        </head>
+        
+        //create slider if page is not wide
+        jQuery(document).ready(function(){
+            if (window.innerWidth < 600) {
+                sliderActive = createSlider();
+            }
+        });
+        
+        //create/destroy slider based on width
+        jQuery(window).resize(function () {
+        
+            //if narrow and no slider, create slider 
+            if (window.innerWidth < 600 && sliderActive == false ) {
+                sliderActive = createSlider();
+            }
+        
+            //else if wide and active slider, destroy slider 
+            else if (window.innerWidth > 600 && sliderActive == true){
+                slider.destroySlider();
+                sliderActive = false;
+            }
+            //else if wide and active slider, or narrow and no slider, do nothing
+        });
+       
+            </script>
+        
+        
+    </head>
     <body>
+        
         <header class="Rectangle-1">
             
             <div class="container container1">
@@ -61,9 +70,12 @@
         </header>
         <section class="poster">
             <div class="banner-container">
+           <!-- <img src="closeup.png" class="banner"> -->
             <div class="1container">
                 <div class="blob">
-            <div class="banner-text">  
+            <div class="banner-text">
+                    <!--<img class="bannerLogo" src="flair-t.png" alt=""> -->
+                    
                     <h2 class="message">Beauty Akademie <strong>Conference</strong></h2></div></div>
                 </div>
             </div>
@@ -77,106 +89,87 @@
             </div></div></div>
         </section>
         <section class="speakers">
-            <div class="container">
-             <h1 class="Unsere-speaker">Unsere <strong class="Unsere-speaker text-strong">Speaker</strong></h1>
-             
-                 <p class="celebration-day">FREITAG 27, SEPTEMBER   <div class="tag">TAG 1</div></p>
-                 <h1 class="Unsere-speaker">Asthetische Medizen & <strong class="Unsere-speaker text-strong">Altersforschung</strong></h1>
-                 <img src="image/Element.png"   class="Element">
-                 <p class="text-above-grid"> It is a long established fact that a reader will be distracted by the readable content of a page when 
-                         looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
-                 <div class="allfour">
-                     <div class="if-slider">
-                         <div class="one">
-                             <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
-                             <div class="info">   
-                                 <h4 class="author-name">Dr. Nigma Talib</h4>
-                                 <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                                 <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                                 <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
-                             </div> 
-                         </div>
+               <div class="container">
+                <h1 class="Unsere-speaker">Unsere <strong class="Unsere-speaker text-strong">Speaker</strong></h1>
+                
+                    <p class="celebration-day">FREITAG 27, SEPTEMBER   <div class="tag">TAG 1</div></p>
+                    <h1 class="Unsere-speaker">Asthetische Medizen & <strong class="Unsere-speaker text-strong">Altersforschung</strong></h1>
+                    <img src="image/Element.png"   class="Element">
+                    <p class="text-above-grid"> It is a long established fact that a reader will be distracted by the readable content of a page when 
+                            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
+                    <div class="allfour">
+                        <div class="if-slider">
+                            <div class="one">
+                                <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                                <div class="info">   
+                                    <h4 class="author-name">Dr. Nigma Talib</h4>
+                                    <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                    <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                    <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
+                                </div> 
+                            </div>
+                           
                         
-                     
-                     <div class="one">
-                             <div class="inner-image">
-                                     <img src="image/Lisa_Scharff.jpg" class="author-image" >
-                             </div>
-                             <div class="info">
-                                 
-                                 <h4 class="author-name">Dr. Nigma Talib</h4>
-                                 <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                                 <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                                 <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
-                             </div>
-                         </div>
-                         <div class="one">
-                                 <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
-                                 <div class="info">
-                                     
-                                     <h4 class="author-name">Dr. Nigma Talib</h4>
-                                     <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                                     <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                                     <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
-                                 </div>
-                             </div><div class="one">
-                                     <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
-                                     <div class="info">
-                                         
-                                         <h4 class="author-name">Dr. Nigma Talib</h4>
-                                         <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                                         <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                                         <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
-                                     </div>
-                                 </div> 
-                 </div> </div>
+                        <div class="one">
+                                <div class="inner-image">
+                                        <img src="image/Lisa_Scharff.jpg" class="author-image" >
+                                </div>
+                                <div class="info">
+                                    
+                                    <h4 class="author-name">Dr. Nigma Talib</h4>
+                                    <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                    <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                    <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
+                                </div>
+                            </div>
+                            <div class="one">
+                                    <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                                    <div class="info">
+                                        
+                                        <h4 class="author-name">Dr. Nigma Talib</h4>
+                                        <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                        <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                        <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
+                                    </div>
+                                </div><div class="one">
+                                        <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                                        <div class="info">
+                                            
+                                            <h4 class="author-name">Dr. Nigma Talib</h4>
+                                            <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                            <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                            <a href="#" class="ext-link"><div class="arrow-rightS">&rarr;</div></a>
+                                        </div>
+                                    </div> 
+                    </div> </div>
 
-         </div>     
-     </section> <hr class="speakers-hr">
-     <section class="speakers1">
-        <div class="container">
-         <h1 class="Unsere-speaker">Unsere <strong class="Unsere-speaker text-strong">Speaker</strong></h1>
-         
-             <p class="celebration-day">FREITAG 27, SEPTEMBER   <div class="tag">TAG 1</div></p>
-             <h1 class="Unsere-speaker">Asthetische Medizen & <strong class="Unsere-speaker text-strong">Altersforschung</strong></h1>
-             <img src="image/Element.png"   class="Element">
-             <p class="text-above-grid"> It is a long established fact that a reader will be distracted by the readable content of a page when 
-                     looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
-             <div class="allfour">
-                    <div class="if-slider">
-                <div class="one">
-                     <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
-                     <div class="info">
-                             
-                         <h4 class="author-name">Dr. Nigma Talib</h4>
-                         <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                         <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                         <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
-                     </div>
-                 </div>
-                 <div class="one">
-                         <div class="inner-image">
-                                 <img src="image/Lisa_Scharff.jpg" class="author-image" >
-                         </div>
-                         <div class="info">
-                             
-                             <h4 class="author-name">Dr. Nigma Talib</h4>
-                             <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                             <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                             <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
-                         </div>
-                     </div>
-                     <div class="one">
+            </div>     
+        </section> <hr class="speakers-hr">
+        <section class="speakers1">
+                <div class="container">
+                 <h1 class="Unsere-speaker">Unsere <strong class="Unsere-speaker text-strong">Speaker</strong></h1>
+                 
+                     <p class="celebration-day">FREITAG 27, SEPTEMBER   <div class="tag">TAG 1</div></p>
+                     <h1 class="Unsere-speaker">Asthetische Medizen & <strong class="Unsere-speaker text-strong">Altersforschung</strong></h1>
+                     <img src="image/Element.png"   class="Element">
+                     <p class="text-above-grid"> It is a long established fact that a reader will be distracted by the readable content of a page when 
+                             looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
+                     <div class="allfour">
+                            <div class="if-slider">
+                        <div class="one">
                              <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
                              <div class="info">
-                                 
+                                     
                                  <h4 class="author-name">Dr. Nigma Talib</h4>
                                  <p class="expertise">Naturopathic Doctor, Los Angeles</p>
                                  <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
                                  <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
                              </div>
-                         </div><div class="one">
-                                 <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                         </div>
+                         <div class="one">
+                                 <div class="inner-image">
+                                         <img src="image/Lisa_Scharff.jpg" class="author-image" >
+                                 </div>
                                  <div class="info">
                                      
                                      <h4 class="author-name">Dr. Nigma Talib</h4>
@@ -185,202 +178,215 @@
                                      <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
                                  </div>
                              </div>
-             </div></div>
-
-     </div>     
- </section> <hr class="speakers-hr">
- <section class="speakers2">
-    <div class="container">
-     <h1 class="Unsere-speaker">Unsere <strong class="Unsere-speaker text-strong">Speaker</strong></h1>
-     
-         <p class="celebration-day">FREITAG 27, SEPTEMBER   <div class="tag">TAG 1</div></p>
-         <h1 class="Unsere-speaker">Asthetische Medizen & <strong class="Unsere-speaker text-strong">Altersforschung</strong></h1>
-         <img src="image/Element.png"   class="Element">
-         <p class="text-above-grid"> It is a long established fact that a reader will be distracted by the readable content of a page when 
-                 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
-         <div class="allfour">
-                <div class="if-slider"> 
-            <div class="one">
-                 <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
-                 <div class="info">
-                         
-                     <h4 class="author-name">Dr. Nigma Talib</h4>
-                     <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                     <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                     <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
-                 </div>
-             </div>
-             <div class="one">
-                     <div class="inner-image">
-                             <img src="image/Lisa_Scharff.jpg" class="author-image" >
-                     </div>
-                     <div class="info">
-                         
-                         <h4 class="author-name">Dr. Nigma Talib</h4>
-                         <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                         <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                         <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
-                     </div>
-                 </div>
-                 <div class="one">
-                         <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
-                         <div class="info">
-                             
-                             <h4 class="author-name">Dr. Nigma Talib</h4>
-                             <p class="expertise">Naturopathic Doctor, Los Angeles</p>
-                             <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
-                             <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
-                         </div>
-                     </div><div class="one">
+                             <div class="one">
+                                     <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                                     <div class="info">
+                                         
+                                         <h4 class="author-name">Dr. Nigma Talib</h4>
+                                         <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                         <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                         <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
+                                     </div>
+                                 </div><div class="one">
+                                         <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                                         <div class="info">
+                                             
+                                             <h4 class="author-name">Dr. Nigma Talib</h4>
+                                             <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                             <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                             <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
+                                         </div>
+                                     </div>
+                     </div></div>
+ 
+             </div>     
+         </section> <hr class="speakers-hr">
+         <section class="speakers2">
+                <div class="container">
+                 <h1 class="Unsere-speaker">Unsere <strong class="Unsere-speaker text-strong">Speaker</strong></h1>
+                 
+                     <p class="celebration-day">FREITAG 27, SEPTEMBER   <div class="tag">TAG 1</div></p>
+                     <h1 class="Unsere-speaker">Asthetische Medizen & <strong class="Unsere-speaker text-strong">Altersforschung</strong></h1>
+                     <img src="image/Element.png"   class="Element">
+                     <p class="text-above-grid"> It is a long established fact that a reader will be distracted by the readable content of a page when 
+                             looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less</p>
+                     <div class="allfour">
+                            <div class="if-slider"> 
+                        <div class="one">
                              <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
                              <div class="info">
-                                 
+                                     
                                  <h4 class="author-name">Dr. Nigma Talib</h4>
                                  <p class="expertise">Naturopathic Doctor, Los Angeles</p>
                                  <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
                                  <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
                              </div>
                          </div>
-         </div> </div>
+                         <div class="one">
+                                 <div class="inner-image">
+                                         <img src="image/Lisa_Scharff.jpg" class="author-image" >
+                                 </div>
+                                 <div class="info">
+                                     
+                                     <h4 class="author-name">Dr. Nigma Talib</h4>
+                                     <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                     <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                     <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
+                                 </div>
+                             </div>
+                             <div class="one">
+                                     <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                                     <div class="info">
+                                         
+                                         <h4 class="author-name">Dr. Nigma Talib</h4>
+                                         <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                         <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                         <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
+                                     </div>
+                                 </div><div class="one">
+                                         <div class="inner-image"><img src="image/Lisa_Scharff.jpg" class="author-image" ></div>
+                                         <div class="info">
+                                             
+                                             <h4 class="author-name">Dr. Nigma Talib</h4>
+                                             <p class="expertise">Naturopathic Doctor, Los Angeles</p>
+                                             <p class="detail-info">It is a long established fact that a reader will be distracted by the readable content of a page when  content of a page whenlooking at its layout. </p>
+                                             <a href="#" class="ext-link"><div class="arrow-right">&rarr;</div></a>
+                                         </div>
+                                     </div>
+                     </div> </div>
+ 
+             </div>     
+         </section> <hr class="speakers-hr">
+         <section class="ticket-option">
+             <div class="container">
+                 <div class="page-6">
+                 <div class="ticket-text">
+                    <h1 class="Ticket-Optionen"><span class="text-style-1 ">Ticket</span> Optionen</h1>
+                    <p class="Mageschneidert">Maßgeschneidert für Sie</p>
+                   
+                     <ul class="listouter">
+                         <li class="listinner">
+                              <div class="content-ticket"> <p class="listinnerh"> Speaker´s Ticket: 50 Euro pro Tag<br> 
+                              <span class="listinnerp"> beinhaltet alle Vorträge, Kaffee & Wasser,
+                                    Goodie Bag</span> </p> </div>
+                         </li>
+                         
 
- </div>     
-</section> <hr class="speakers-hr">
-<section class="ticket-option">
-    <div class="container">
-        <div class="page-6">
-        <div class="ticket-text">
-           <h1 class="Ticket-Optionen"><span class="text-style-1 ">Ticket</span> Optionen</h1>
-           <p class="Mageschneidert">Maßgeschneidert für Sie</p>
-           
-           <!-- <ul class="listbutyAcdmyOuter">
-               <li class="listbutyAcdmy">
-                   <div class="contentList">
-                       <h4 class="listTilte">Speaker´s Ticket: 50 Euro pro Tag</h4>
-                       <p class="listdescription">beinhaltet alle Vorträge, Kaffee & Wasser,Goodie Bag</p>
-                   </div>
-               </li>
-           </ul>           -->
-            <ul class="listouter">
-                <li class="listinner">
-                     <div class="content-ticket"> <p class="listinnerh"> Speaker´s Ticket: 50 Euro pro Tag<br> 
-                     <span class="listinnerp"> beinhaltet alle Vorträge, Kaffee & Wasser,
-                           Goodie Bag</span> </p> </div>
-                </li>
-                
-
-                
-                       <li class="listinner">
-                            <div class="content-ticket"> <h4 class="listinnerh"> Editor´s Lunch: 50 Euro
-                                    </h4>
-                            <p class="listinnerp">  beinhaltet ein gemeinsames Mittagessen mit
-                                   Desirée Treichl-Stürgkh und Ingrid Geringer</p> </div>
-                       </li>
-                       
-                       
-                               <li class="listinner">
-                                    <div class="content-ticket"> <h4 class="listinnerh"> Premium VIP-Package: 190 Euro pro Tag
-                                           </h4>
-                                    <p class="listinnerp"> beinhaltet alle Vorträge, je einen Workshop
-                                           On-side & Off-Location, Editors Lunch, Food &
-                                           Beverages, Goodie Bag</p> </div>
-                               </li>
-                           </ul> 
-        </div>
-        <div class="form-ab">
-            <form>
-                First Name <br> <input type="text" placeholder="Enter First Name..."> 
-                <br> Last Name <br>
-                
-                
-                <input type="text" placeholder="Enter Last Name...">  <br>
-                Email <br>
-                <input type="text" placeholder="Enter Email...">  <br>
-                Address <br>
-                <textarea placeholder="Type Your Address..."  rows="8" cols="50"></textarea> <br>
-                <p class="checkbox-p"><input type="checkbox"> I agree to the <span class="blue-link">terms & conditions, Privacy Policy</span></p>
-                <input type="submit" value="Submit">
-
-            </form>
-        </div>
-    </div>
-</section>
-<hr class="after-form-hr">
-<section class="conference-schedule"><div class="container">
-                
-    <p class="celebration-day">Events Timeline </p>
-    <h1 class="Unsere-speaker">Conference Sсhedule</h1>
-    <img src="image/Element.png"   class="Element">
-    <div class="days">
-        <div class="day1"><p class="dayp">DAY 1</p></div>
-        <div class="day2"><p class="dayp">DAY 2</p></div> 
-        <div class="day3"><p class="dayp">DAY 3</p></div>
-    </div>
-    <div class="mainhall"><p class="dayp">MAIN HALL A</p></div>
-     <div class="submainhall">
-         <div class="subhalll">
-             <h1 class="heading">Morning</h1>
-             <div class="info7">
-                 <div class="author-image7"><img src="image/barbara.png"></div>
-                 <div class="show-details"><p class="name7">Dr. Barbara Sturm</p>
-                    <p class="details7">It is a long established fact that </p>
-                    <p class="timings7">9:30 AM - 11:30 AM</p>
-                    <p class="tickets"><img src="image/tickets.png">Hurry up! Only 10 tickets left</p>
-                        <div class="button7">BOOK NOW</div>
+                         
+                                <li class="listinner">
+                                     <div class="content-ticket"> <h4 class="listinnerh"> Editor´s Lunch: 50 Euro
+                                             </h4>
+                                     <p class="listinnerp">  beinhaltet ein gemeinsames Mittagessen mit
+                                            Desirée Treichl-Stürgkh und Ingrid Geringer</p> </div>
+                                </li>
+                                
+                                
+                                        <li class="listinner">
+                                             <div class="content-ticket"> <h4 class="listinnerh"> Premium VIP-Package: 190 Euro pro Tag
+                                                    </h4>
+                                             <p class="listinnerp"> beinhaltet alle Vorträge, je einen Workshop
+                                                    On-side & Off-Location, Editors Lunch, Food &
+                                                    Beverages, Goodie Bag</p> </div>
+                                        </li>
+                                    </ul> 
                  </div>
-                
+                 <div class="form-ab">
+                     <form>
+                         First Name <br> <input type="text" placeholder="Enter First Name..."> 
+                         <br> Last Name <br>
+                         
+                         
+                         <input type="text" placeholder="Enter Last Name...">  <br>
+                         Email <br>
+                         <input type="text" placeholder="Enter Email...">  <br>
+                         Address <br>
+                         <textarea placeholder="Type Your Address..."  rows="8" cols="50"></textarea> <br>
+                         <p class="checkbox-p"><input type="checkbox"> I agree to the <span class="blue-link">terms & conditions, Privacy Policy</span></p>
+                         <input type="submit" value="Submit">
+
+                     </form>
+                 </div>
              </div>
-             <hr class="hr7">
-             <div class="info7">
-                    <div class="author-image7"><img src="image/barbara.png"></div>
-                    <div class="show-details"><p class="name7">Dr. Barbara Sturm</p>
-                       <p class="details7">It is a long established fact that </p>
-                       <p class="timings7">9:30 AM - 11:30 AM</p>
-                       <p class="tickets"><img src="image/tickets.png">Hurry up! Only 10 tickets left</p>
-                           <div class="button7">BOOK NOW</div>
-                    </div>
-                    
-                </div> <hr class="hr7">
-         </div>
-         <div class="subhallr">
-                <h1 class="heading">Afternoon</h1>
-                <div class="info7">
-                        <div class="author-image7"><img src="image/barbara.png"></div>
-                        <div class="show-details"><p class="name7">Dr. Barbara Sturm</p>
-                           <p class="details7">It is a long established fact that </p>
-                           <p class="timings7">9:30 AM - 11:30 AM</p>
-                           <p class="tickets"><img src="image/tickets.png">Hurry up! Only 10 tickets left</p>
-                               <div class="button7">BOOK NOW</div>
-                        </div>
-                        
-                    </div>  <div class="form-ab2">
-                            <form>
-                                First Name <br> <input type="text" placeholder="Enter First Name..."> 
-                                <br> Last Name <br>
-                                
-                                
-                                <input type="text" placeholder="Enter Last Name...">  <br>
-                                Email <br>
-                                <input type="text" placeholder="Enter Email...">  <br>
-                                Address <br>
-                                <textarea placeholder="Type Your Address..."  rows="8" cols="50"></textarea> <br>
-                                <p class="checkbox-p"><input type="checkbox"> I agree to the <span class="blue-link">terms & conditions, Privacy Policy</span></p>
-                                <input type="submit" value="Submit">
-       
-                            </form>
-                        </div> <hr class="hr7">
-                        <div class="info7">
+         </section>
+         <hr class="after-form-hr">
+         <section class="conference-schedule"><div class="container">
+                
+                <p class="celebration-day">Events Timeline </p>
+                <h1 class="Unsere-speaker">Conference Sсhedule</h1>
+                <img src="image/Element.png"   class="Element">
+                <div class="days">
+                    <div class="day1"><p class="dayp">DAY 1</p></div>
+                    <div class="day2"><p class="dayp">DAY 2</p></div> 
+                    <div class="day3"><p class="dayp">DAY 3</p></div>
+                </div>
+                <div class="mainhall"><p class="dayp">MAIN HALL A</p></div>
+                 <div class="submainhall">
+                     <div class="subhalll">
+                         <h1 class="heading">Morning</h1>
+                         <div class="info7">
+                             <div class="author-image7"><img src="image/barbara.png"></div>
+                             <div class="show-details"><p class="name7">Dr. Barbara Sturm</p>
+                                <p class="details7">It is a long established fact that </p>
+                                <p class="timings7">9:30 AM - 11:30 AM</p>
+                                <p class="tickets"><img src="image/tickets.png">Hurry up! Only 10 tickets left</p>
+                                    <div class="button7">BOOK NOW</div>
+                             </div>
+                            
+                         </div>
+                         <hr class="hr7">
+                         <div class="info7">
                                 <div class="author-image7"><img src="image/barbara.png"></div>
                                 <div class="show-details"><p class="name7">Dr. Barbara Sturm</p>
                                    <p class="details7">It is a long established fact that </p>
                                    <p class="timings7">9:30 AM - 11:30 AM</p>
                                    <p class="tickets"><img src="image/tickets.png">Hurry up! Only 10 tickets left</p>
                                        <div class="button7">BOOK NOW</div>
-                                </div>               
-                            </div>
-         </div>
-     </div>   
+                                </div>
+                                
+                            </div> <hr class="hr7">
+                     </div>
+                     <div class="subhallr">
+                            <h1 class="heading">Afternoon</h1>
+                            <div class="info7">
+                                    <div class="author-image7"><img src="image/barbara.png"></div>
+                                    <div class="show-details"><p class="name7">Dr. Barbara Sturm</p>
+                                       <p class="details7">It is a long established fact that </p>
+                                       <p class="timings7">9:30 AM - 11:30 AM</p>
+                                       <p class="tickets"><img src="image/tickets.png">Hurry up! Only 10 tickets left</p>
+                                           <div class="button7">BOOK NOW</div>
+                                    </div>
+                                    
+                                </div>  <div class="form-ab2">
+                                        <form>
+                                            First Name <br> <input type="text" placeholder="Enter First Name..."> 
+                                            <br> Last Name <br>
+                                            
+                                            
+                                            <input type="text" placeholder="Enter Last Name...">  <br>
+                                            Email <br>
+                                            <input type="text" placeholder="Enter Email...">  <br>
+                                            Address <br>
+                                            <textarea placeholder="Type Your Address..."  rows="8" cols="50"></textarea> <br>
+                                            <p class="checkbox-p"><input type="checkbox"> I agree to the <span class="blue-link">terms & conditions, Privacy Policy</span></p>
+                                            <input type="submit" value="Submit">
+                   
+                                        </form>
+                                    </div> <hr class="hr7">
+                                    <div class="info7">
+                                            <div class="author-image7"><img src="image/barbara.png"></div>
+                                            <div class="show-details"><p class="name7">Dr. Barbara Sturm</p>
+                                               <p class="details7">It is a long established fact that </p>
+                                               <p class="timings7">9:30 AM - 11:30 AM</p>
+                                               <p class="tickets"><img src="image/tickets.png">Hurry up! Only 10 tickets left</p>
+                                                   <div class="button7">BOOK NOW</div>
+                                            </div>
+                                            
+                                        </div>
 
-</div></section>
+                     </div>
+                 </div>   
+
+         </div></section>
 <section class="booknow">
     <div class="container">
             <div class="content8">
@@ -426,7 +432,7 @@
                     </div>
         </div>
     </section>
-     <section class="gallery">
+    <section class="gallery">
         <div class="container">
                 
                         <div class=" gallery-inn">    
@@ -502,5 +508,29 @@
             
         </div>
     </div></section>
-    </body>
+    <section class="last">
+     <div class="container">  
+       <div class="three-e"> <div class="left12"><div class="inner-left12"><img src="image/flair2.png" width="168px" height="69px">
+        <p class="last-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. dummy text of the printing and typesetting industry.</p>
+
+    
+   <a href=""> <img src="image/pinterest.png" width="30px" height="30px" class="logo12"> </a>
+   <a href=""><img src="image/facebook.png" width="30px" height="30px" class="logo12"></a>
+   <a href=""><img src="image/twitter.png" width="30px" height="30px" class="logo12"></a> </div>
+</div>
+        <div class="middle12">
+            <h1 class="last-title">Useful Links</h1>
+             <ul class="last-ul"><li class="last-li"><a class="lasta" href="#">Imprint</a></li><li class="last-li"><a class="lasta" href="#">Terms and Condition</a></li><li class="last-li"><a class="lasta" href="#">Contact</a></li><li class="last-li"><a class="lasta" href="#">Privacy Policy</a></li></ul>
+        </div>
+        <div class="right12">
+             <div class="inner-right"><h1 class="last-title last-left-title">Contact</h1>
+             <p class="p12"><img src="image/add.png"><span class="info12">SO/ Vienna Hotel , Praterstraße 1
+                1020 Wien</span></p>
+             <p class="p12"><img src="image/email2.png"><span class="info12">@aheadmedia.com</span></p>
+             <p class="p12"><img src="image/phone2.png"><span class="info12">+43 1 214 06 01</span></p>
+            </div>
+        </div> </div></div>
+    </section>
+
+</body>
 </html>
