@@ -5,3 +5,6 @@
 
 
 - Check proof-of-concept.pdf to know more about the project.
+
+
+- Visit live: https://02karan02.github.io/Flair-beauty/
