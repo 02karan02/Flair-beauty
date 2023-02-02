@@ -42,20 +42,24 @@
         <script>
             $(document).ready(function(){
                 jQuery(function() {
-    jQuery.ajax({
-            url: './html/thirdparty.html',
-            dataType: 'html',
-            success: function(data) {
-                $('#third-party').html(data);
-            },
-            error: function(xhr, error){
-                alert('error. see console for details');
-                console.error(error);
-            }
+                    jQuery.ajax({
+                            url: './html/thirdparty.html',
+                            dataType: 'html',
+                            success: function(data) {
+                                $('#third-party').html(data);
+                            },
+                            error: function(xhr, error){
+                                alert('error. see console for details');
+                                console.error(error);
+                            }
+                        });
+                    });
         });
-    });
-        });
-        
+        function myFunction(e){
+            e.preventDefault();
+            alert("form submitted");
+            console.log(e);
+        }
         </script>
     </body>
 </html>
