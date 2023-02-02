@@ -1,0 +1,130 @@
+
+
+/*form*/
+
+.form-ab{
+    margin-top: 66px;
+    width:40%;
+    margin-left: 100px;
+    margin-right: 100px;
+    float:right;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: solid 1px #dcdbdb;
+    font-family: Poppins;
+    line-height: 1.75;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    
+  }
+  .ticket-text{
+    float: left;
+  }
+  
+  input[type=text], textarea {
+    
+    padding: 12px;
+    border: 1px solid #dcdbdb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    width: -webkit-fill-available;
+    border: solid 1px #f2f2f2;
+    background-color: #f8f8f8;
+    
+    font-size: 12px;
+  
+  }
+  
+  input[type=submit] {
+    text-transform: uppercase;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border: solid 1px #cfc6c6;  
+    border-radius: 23px;
+    background-color: #ff9999;
+    margin-top: 27.6px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(252, 252, 252);
+    border: solid 1px #cfc6c6;
+    color: #1a1a19;
+  }
+  .blue-link{
+    color: #108efc;
+  }
+  
+  .checkbox-p{
+    padding-top: 4px; 
+    font-size: 12px;
+  }
+  
+  /*form complete*/
+  /* text before form */
+  .Ticket-Optionen {
+    width: 351px;
+    height: 67px;
+    font-family: PlayfairDisplay;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.24;
+    letter-spacing: -0.75px;
+    text-align: left;
+    color: #232323;
+  }
+  .text-style-1 {
+    font-weight: normal;
+    font-style: italic;
+  }
+  .Mageschneidert{
+    font-family: PlayfairDisplay;
+    font-size: 29px;
+    line-height: 2.14;
+    letter-spacing: -0.44px;
+    text-align: left;
+    color: #232323;
+  }
+  
+  
+  .listinner{
+    list-style: none;
+    display: flex;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    width:346px;
+  }
+  
+  .listinner:before{
+  content: "";
+  width: 7px;
+  height:7px;
+  border-radius: 50%;
+  border: 1px solid #ff9999;
+  display: block;
+  margin-top: 15px;
+  min-width: 7px;
+  }
+  
+  .content-ticket{
+    padding-left: 15px;
+  }
+  
+  .listinnerp{
+    font-family: Lato;
+    font-style: italic;  
+    line-height: 1.61;
+    text-align: left;
+    color: #9c9da7;
+  }
+  .listinnerh{
+    font-weight: bold;
+    color: #151516;
+  }

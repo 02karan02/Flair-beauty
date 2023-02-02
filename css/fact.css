@@ -1,0 +1,127 @@
+
+
+/* book now over*/
+
+/*facts section*/
+.facts9{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  
+  .info-i9{
+    display: flex;
+    margin-top: 62px;
+    
+  }
+  .info9{
+    width: 50%;
+    padding: 30px;
+    margin-left: 30px;
+  }
+  .info9inner{
+    width: 75%;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    
+  }
+  
+  .i9{
+    background-image: url("image/facts-img-1.jpg");
+    width: 460px;
+    height: 299px;
+    border-radius: 0 0 0 50px;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: 60px;
+  }
+  
+  .info9data{
+  
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.94;
+    letter-spacing: -0.27px;
+    text-align: left;
+    color: #232323;
+    border-bottom: 1px solid grey;
+    padding-bottom: 29.4px;
+    width: 80%;
+    
+  }
+  
+  .hr9{
+    margin-top: 14px;
+    width: 65%;
+    float: left;
+    
+  }
+  ul, li{
+    list-style: none;
+  }
+  .leaf9{
+    position: relative;
+    padding-top: 20px;
+  }
+  .leaf9::before{
+    content: "";
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    opacity: 0.09;
+    background-color: #f99;
+    position: absolute;  
+    z-index: 1;
+    left: -87px;
+    
+  
+  }
+  .leaf9::after{
+    content: ""; 
+    background-image: url("image/leaf.png");
+    top: 43px;
+    left: -67px;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+  }
+  .i9-2{
+    background-image: url("image/facts-img-1.jpg");
+    width: 520px;
+    height: 299px;
+    border-radius: 0 0 0 50px;
+    
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: 60px;
+  }
+  .info9-2{
+    width: 50%;
+    padding: 30px;
+    margin-left: 150px;
+  }
+  
+  .info9data2{
+  
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.94;
+    letter-spacing: -0.27px;
+    text-align: left;
+    color: #232323;
+    border-bottom: 1px solid grey;
+    padding-bottom: 29.4px;
+    
+    
+  }
+  .leaf9{
+    position: relative;
+    padding-top: 20px;
+    padding-right: 60px;
+  }
+  

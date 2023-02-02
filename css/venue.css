@@ -1,0 +1,86 @@
+
+/*venue*/
+.venue{
+    float: left;
+    display: grid;
+    text-align: center;
+    border: solid 1px #cbcbcb;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding:50px;
+    width: 33.33%;
+    height: 400px;
+  
+  }
+  .element11{
+    margin: 44 auto;
+    
+    
+  }
+  .map{
+    float:left;
+    width: 33.33%;
+  }
+  .address{
+    float:left;
+    width: 33.33%;
+    background-color: #ff9999;
+    height: 400px;
+  }
+  
+  .info11{
+    font-family: PlayfairDisplay;
+    font-size: 50px;
+    font-style: italic;
+    line-height: 1.24;
+    letter-spacing: -0.75px;
+    text-align: center;
+    color: #232323;
+  }
+  .info11p{
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.27;
+    text-align: center;
+    color: #9c9da7;
+  }
+  
+  .inner-address{
+    padding: 60px 40px 38px 40px;
+  }
+  
+  .telephone-i{
+    float: left;
+    margin: 6 4.5 0 0;
+  }
+  
+  .phone11{
+    float: left;
+      display: contents;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: left;
+      color: #ffffff;
+  }
+  .phone-number{
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 1.87;
+    letter-spacing: 0.14px;
+    
+    color: #ffffff;
+  }
+  .hr11{
+   
+     
+      margin-left: 0;
+      margin-right: auto;
+      border-style: inset;
+      border-width: 1px;
+      width: 75%;
+      margin-top: 36px;
+      margin-bottom: 29px;
+  }
+  

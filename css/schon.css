@@ -1,0 +1,62 @@
+
+
+
+/*schon*/
+
+.schon{
+    position: relative;
+    width: 100%;
+    height: 677.4px;
+    display: block;
+    background: url(nail.png) no-repeat top center #fff;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    padding: 100px 0;  
+}
+
+.nail{
+  z-index: -1;
+  width: 100%;
+}
+
+.nail-container{
+  position: relative;
+}
+.hr{
+  border: 0;
+height: 1px;
+width:25%;
+
+background: #333;
+}
+
+.Schönheitskonferenz{
+  display: inline-block;
+  font-family: 'Playfair Display',serif;
+  font-size: 3.125rem;
+  line-height: 2.24;
+  font-weight: 400;
+  color: #232323;
+  font-style: italic;
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+.date-time{
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #232323;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+.Element {
+  width: 86px;
+  height: 20px;
+  
+}

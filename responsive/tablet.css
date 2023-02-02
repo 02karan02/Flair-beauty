@@ -1,0 +1,363 @@
+
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 768px) and (min-width: 600px) {
+    .container{
+        width: auto;
+        max-width: initial;
+    }
+    .container1{
+        width: -webkit-fill-available;
+    }
+    .blob {
+        position: absolute;
+        left: 100px;
+        top: 90px;
+        width: 230;
+        height: 251.5px;
+        background: #f8adb1;
+        opacity: 0.83;
+        z-index: 0;
+    }
+    .blob {
+        position: absolute;
+        left: 140px;
+        top: 170px;
+        width: 430;
+        height: 251.5px;
+    }
+    .bannerLogo{
+        width: 100;
+    }
+    .message {
+        display: block;
+        max-width: 600px;
+        font-family: "Playfair Display", serif;
+        font-size: 56px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        font-style: italic;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 20px;
+        margin-left: 84px;
+        z-index: 99;
+    }
+    .allfour {
+        display: block;
+    }
+    hr{
+        margin-top: 400px;
+    }
+    .page-6 {
+        display: block;
+    }
+    .ticket-text {
+        float: initial;
+        padding-left: 20%;
+    }
+
+    .form-ab {
+        margin-top: 66px;
+        width: 60%; 
+        margin-left: 130px;
+        margin-right: 130px;
+        float: initial;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: solid 1px #dcdbdb;
+        font-family: Poppins;
+        line-height: 1.75;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+    .after-form-hr{
+        margin-top: 150px;
+    }
+
+    /*LEFTOVER*/
+    .submainhall {
+        display: block;
+    }
+    .subhalll {
+        float: none; 
+        text-align: center;
+        width: 100%;
+        border-right: solid 0px #ffffff; 
+    }
+    .subhallr {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .info-i9 {
+        display: block;
+        margin-top: 62px;
+    }
+    .info9 {
+        width: 75%;
+        padding: 30 0 30 30;
+        margin-left: 130px;
+    }
+    
+       
+    
+        .i9 {
+            margin-left: auto;
+        }
+    
+    .i9-2 {
+        
+        width: 470px;
+        height: 299px;
+        margin-top: 60px;
+        margin-left: auto;
+    }
+    .info9-2 {
+        width: 85%;
+        padding-left: 90px;
+        margin-left: 90px;
+        padding-right: 0px;
+    }
+    .info9data{
+        width: auto;
+    }
+    .info9data2{
+        font-size: initial;
+    }
+    .venue {
+        width: 50%;
+    }
+    .map{
+        width: 50%;
+    }
+    .address{
+        width: 100%;
+    }
+    .text-above-grid{
+        padding-right: 200px;
+
+    }
+    
+    .one{
+        height: 250;
+    }
+    .allfour{
+        margin-right: 20px;
+    }
+    hr{
+        margin-top: 650px;
+    }
+    .text-above-grid {
+        margin-right: auto;
+    
+    }
+    .one {
+   
+        margin-bottom: 20px;
+    }
+    .speakers-hr {
+        margin-top: 1120;
+    }
+    .speakers-hr {
+        
+        margin-top: 700px;
+    }
+    .text-above-grid {
+        padding-right: initial;
+    }
+    .tag{
+        width: fit-content;
+        margin: 10px auto;
+    }
+    .info9data2{
+        font-size: 18px;
+    }
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .hr{
+        margin-top: 600px;
+    }
+   
+    .bannerLogo{
+        width: 100;
+    }
+    .message {
+        display: block;
+        max-width: 600px;
+        font-family: "Playfair Display", serif;
+        font-size: 56px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        font-style: italic;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 20px;
+        margin-left: 84px;
+        z-index: 99;
+    }
+    .allfour {
+        display: block;
+    }
+    hr{
+        margin-top: 400px;
+    }
+    .page-6 {
+        display: block;
+    }
+    .ticket-text {
+        float: initial;
+        padding-left: 20%;
+    }
+
+    .form-ab {
+        margin-top: 66px;
+        width: 60%; 
+        margin-left: 130px;
+        margin-right: 130px;
+        float: initial;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: solid 1px #dcdbdb;
+        font-family: Poppins;
+        line-height: 1.75;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+    .after-form-hr{
+        margin-top: 150px;
+    }
+    .submainhall {
+        display: block;
+    }
+    .subhalll {
+        float: none; 
+        text-align: center;
+        width: 100%;
+        border-right: solid 0px #ffffff; 
+    }
+    .subhallr {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    /*Leftover*/
+    .info-i9 {
+        display: block;
+        margin-top: 62px;
+    }
+    .info9 {
+        width: 80%;
+        padding: 30px;
+        margin-left: 130px;
+    }
+    .i9 {
+        margin-left: 100px;
+    }
+    .i9-2 {
+        
+        width: 470px;
+        height: 299px;
+        margin-top: 60px;
+        margin-left: 95px;
+    }
+    .info9-2 {
+        width: 80%;
+        padding-left: 90px;
+        margin-left: 90px;
+    }
+    .info9data{
+        width: auto;
+    }
+    .info9data2{
+        font-size: initial;
+    }
+    .venue {
+        width: 50%;
+    }
+    .map{
+        width: 50%;
+    }
+    .address{
+        width: 100%;
+    }
+    /* .if-slider {
+        height: 500px;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+      } */
+      .i9{
+        margin: auto;
+      }
+      .i9-2{
+        margin: auto;
+      }
+      .tag{
+        width: fit-content;
+        margin: 10px auto;
+    }
+    .info9data2{
+        font-size: 18px;
+    }
+     
+  } 
+
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .info9data{
+        width: 100%;
+    }
+    .leaf9{
+        padding-right: 0;
+    }
+
+.info9-2 {
+    margin-left: 100px;
+}auto
+.hr11 {
+    margin-bottom: 12px;
+}
+.if-slider {
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    
+}
+.speakers-hr{
+    margin-top: 200px;
+  }
+      .detail-info{padding-bottom: 40px;}
+      .tag{
+        width: fit-content;
+        margin: 10px auto;
+    }
+
+  } 

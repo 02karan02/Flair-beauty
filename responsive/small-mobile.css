@@ -1,0 +1,689 @@
+@media only screen and (max-width: 370px) {
+    .allfour{
+         margin-left: 13px; 
+     }    
+
+}
+@media only screen and (max-width: 377px) {
+    .info9data{
+        margin-left: 18;
+        
+    }
+    .leaf9::before {
+        left: -27px;
+    }
+    .leaf9::after {
+        top: 26px;
+        left: -22px;
+    }
+    .leaf9-2::before{
+        left: -7px;
+    }
+    .leaf9-2::after {
+        top: 26px;
+        left: -2px;
+    }
+    .info-i9{
+        width: auto;
+    }
+    .info9{
+        margin-left: 20;
+    }
+    .info9data2 {
+        width: 110%;
+    }
+    .tag{
+        width: fit-content;
+        margin: 10px auto;
+    }
+    .info-i9a{
+        width: 100% !important;
+    }
+    .info9-2{
+        width: 80%;
+        margin: 0 auto;
+        margin: 0 22;
+    }
+
+}
+
+
+@media only screen and (max-width: 370px) {
+   
+
+    .allfour {
+        margin-left: 0px;
+        padding-left: 12px;
+    }
+    .allfour{
+        margin-right: 0px;
+    }
+    .info9data2 {
+        width: 100%;
+    }
+    .info9-2 {
+        width: 97%;
+        margin: 0 auto;
+        /* margin: 0 22; */
+    }
+    .info9data2 {
+        width: 100%;
+    }
+    .info9{
+        margin-left: 0px;
+        padding-left: 18px;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .button3{
+     padding-top: 8px;
+    }
+     .container{
+         width: auto;
+         max-width: initial;
+     }
+     .container1{
+         width: -webkit-fill-available;
+     }
+     
+     .bannerLogo{
+         
+         width: 70px;
+     }
+     .banner-container{
+         height: 400px;
+     }
+     .blob {
+         
+         width: 200px;
+         height: 200px;
+     }
+     .button{
+         font-size: 10px;
+     }
+     .message {
+         display: block;
+         max-width: 600px;
+         font-family: "Playfair Display", serif;
+         font-size: 26px;
+         color: rgb(255, 255, 255);
+         font-weight: 400;
+         font-style: italic;
+         text-align: left;
+         margin-left: 10px;
+     }
+     .banner-text {
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+         padding: 20px;
+         margin-left: 14px;
+         z-index: 99;
+         margin-top: -15px;
+         padding-top: 20px;
+     }
+     .allfour {
+         display: block;
+     }
+     hr{
+         margin-top: 400px;
+     }
+     .page-6 {
+         display: block;
+     }
+     .ticket-text {
+         float: initial;
+         padding-left: 20%;
+     }
+ 
+     .form-ab {
+         margin-top: 66px;
+         width: 60%; 
+         margin-left: 130px;
+         margin-right: 130px;
+         float: initial;
+         padding: 20px;
+         background-color: #ffffff;
+         border-radius: 5px;
+         border: solid 1px #dcdbdb;
+         font-family: Poppins;
+         line-height: 1.75;
+         font-size: 14px;
+         font-weight: 700;
+         letter-spacing: 0.5px;
+     }
+     .after-form-hr{
+         margin-top: 150px;
+     }
+     .submainhall {
+         display: block;
+     }
+     .subhalll {
+         float: none; 
+         text-align: center;
+         width: 100%;
+         border-right: solid 0px #ffffff; 
+     }
+     .subhallr {
+         float: none;
+         text-align: center;
+         width: 100%;
+     }
+     .info-i9 {
+         display: block;
+         margin-top: 62px;
+     }
+     .info9 {
+         width: 75%;
+         padding: 30 0 30 30;
+         margin-left: 130px;
+     }
+     
+        
+     
+         .i9 {
+             margin-left: auto;
+         }
+     
+     .i9-2 {
+         
+         width: 470px;
+         height: 299px;
+         margin-top: 60px;
+         margin-left: auto;
+     }
+     .info9-2 {
+         width: 85%;
+         padding-left: 90px;
+         margin-left: 90px;
+         padding-right: 0px;
+     }
+     .info9data{
+         width: auto;
+     }
+     .info9data2{
+         font-size: initial;
+     }
+     .venue {
+         width: 50%;
+     }
+     .map{
+         width: 50%;
+     }
+     .address{
+         width: 100%;
+     }
+     .text-above-grid{
+         padding-right: 200px;
+ 
+     }
+   
+   
+     .poster{
+         height: auto;
+     }
+     .one{
+         height: 250;
+     }
+     .allfour{
+         margin-right: 20px;
+     }
+     hr{
+         margin-top: 650px;
+     }
+     .text-above-grid {
+         margin-right: auto;
+         
+         padding: 25px;
+     width: 75%;
+     }
+     .buttons{
+         position: initial;
+     }
+ 
+     .button {
+         flex-direction: row;
+         min-width: 125px;
+         height: 30px;
+         border-radius: 23px;
+         border: solid 1px #cfc6c6;
+         display: table;
+         position: initial;
+         text-decoration: none;
+         vertical-align: top;
+         text-align: center;
+         padding: 5px 5px;
+         line-height: 1.36;
+         font-weight: 700;
+         font-size: 10px;
+         background-color: #ffffff;
+         color: #1a1a19;
+         text-transform: uppercase;
+         transition: .4s ease-in-out;
+     }
+     .Schönheitskonferenz{
+         font-size: 30px;
+     }
+     .date-time {
+         font-size: initial;
+     }
+     .button3{
+         display: inline-block;
+     }
+     .schon{
+         height: initial;
+         padding: 0px;
+     }
+     .logo {
+         max-width: 100px;
+     }
+     .buttons{
+         padding-top: 30px;
+     }
+     .button{
+         font-size: 9px;
+     }
+     .Rectangle-1 {
+         width: 100%;
+         height: 66px;}
+         .button {
+             min-width: 100px;}
+ 
+     .button1{
+         display: inline;
+         margin-right: 0px;
+     }        
+     .button2{
+         display: inline;
+     }
+     .Unsere-speaker {
+        
+         font-size: 30px;
+         padding-bottom: 30px;
+     }
+     .speakers {
+        
+         padding-top: 50px;
+     }
+     .celebration-day {
+       
+         font-size: 11px;
+         letter-spacing: 2.21px;
+     }
+     .tag {
+         vertical-align: middle;
+         width: 50px;
+         padding: 10px 15px;
+         min-width: 96px;
+         background: #ffeff0;
+         border-radius: 100px;
+         text-align: center;
+         font-size: 14px;
+         line-height: 1.4;
+         font-weight: 700;
+         text-transform: uppercase;
+         color: #f99;
+         letter-spacing: -0.21px;
+         display: inline-block;
+         margin: 10px;
+     }
+ 
+ 
+ .text-above-grid {
+     font-size: 12px;
+ }
+ .one{
+     display: block;
+     height: auto;
+     width: fit-content;
+     height: 370px;
+ }
+ .inner-image {
+     width: 117px;
+     height: 116px;
+     margin-left: 57px;
+   }
+     .info{
+         float: initial;
+         width: 250px;
+         height: 220px;
+     }  
+     .allfour{
+        /* margin-left: 29px; */
+     }
+     .speakers-hr{
+         margin-top: 1060;
+     }
+     .Ticket-Optionen {
+     
+         
+ 
+         font-size: 30px;
+         font-weight: bold;
+         line-height: 1.24;
+         letter-spacing: -0.75px;
+         text-align: left;
+         color: #232323;
+     }
+     .Mageschneidert {
+         
+         font-size: 19px;
+         line-height: 2.14;
+         
+     }
+     .Ticket-Optionen {
+          width: auto;
+     }
+     .ticket-text {
+         float: initial;
+         padding-left: 10%;
+     }
+     .listinner {
+         list-style: none;
+         display: flex;
+         padding-top: 25px;
+         padding-left: 0px;
+         padding-bottom: 25px;
+         width: auto; 
+     }
+     .form-ab {
+         margin-top: 36px;
+         width: 100%;
+         margin-left: 15px;
+         margin-right: 10px;
+         float: initial;
+         padding: 20px;
+         background-color: #ffffff;
+         border-radius: 5px;
+         border: solid 1px #dcdbdb;
+         font-family: Poppins;
+         line-height: 1.75;
+         font-size: 14px;
+         font-weight: 700;
+         letter-spacing: 0.5px;
+     }
+     .info7 {
+         display: inherit;
+     }
+     .author-image7 {
+         float: none; 
+         width: auto;
+     }
+     .show-details {
+          float: none; 
+          width: auto; 
+          padding-top: 20px;
+     }
+     
+     .form-ab2 {
+         margin-top: 36px;
+         width: 100%;
+         margin-left: 15px;
+         margin-right: 10px;
+         float: initial;
+         padding: 20px;
+         background-color: #ffffff;
+         border-radius: 5px;
+         border: solid 1px #dcdbdb;
+         font-family: Poppins;
+         line-height: 1.75;
+         font-size: 14px;
+         font-weight: 700;
+         letter-spacing: 0.5px;
+     }
+ 
+     /*LEFT OVER*/
+     .leaf9::after {
+         top: 26px;
+         left: -81px;
+     }
+     .leaf9::before {
+         width: 34px;
+         height: 34px;
+     }
+     .info9data {
+         margin: 0px;
+         font-size: 15px;
+     }
+     .info9 {
+         width: 100%;
+         padding: 30 0 30 0;
+         margin-left: 100px;
+         
+     }
+ .leaf9 {
+     position: relative;
+     padding-top: 20px;
+     padding-right: 40px;
+ }
+ .info9data {
+     width: 75%;
+ }
+ .info9data {
+     width: 75%;
+    
+ }
+ .i9 {
+     width: 300px;
+     
+     margin-left: auto;
+     margin: 0 auto;
+     
+ }
+ .i9-2 {
+     width: 300px;
+     margin-left: auto;
+     margin: 0 auto;
+ 
+ }
+ .info9-2 {
+     width: 85%;
+     padding-left: 0px; 
+ }
+ .venue {
+     width: 100%;
+ }
+ .map {
+     width: 100%;
+ }
+ .address{
+     height: 450px;
+ }
+ .left12 {
+     
+     width: 100%;}
+     .middle12 {
+         width: 100%;}
+         .right12 {
+             width: 100%;
+             float: right;
+         }
+ 
+         .one{
+             text-align: center;
+            
+         }
+  .form-ab{
+     margin-left: 1px;
+  }       
+  .form-ab2{
+     margin-left: 1px;
+  } 
+  .info9 {
+     width: 100%;
+     padding: 30 0 30 0;
+     margin-left: 0;
+ }
+ .info9-2 {
+     width: 100%;
+     padding-left: 90px;
+     margin-left: 0px; 
+     padding-right: 0px;
+ }
+ .leaf9{
+     
+ }
+ .info9data {
+     width: 100%;
+ }
+ .info9-2 {
+     padding-left: 0px;
+ }
+ .allfour {
+      
+     padding: 20 0;
+ }
+ .button3{
+ display: inline-flex;
+ /* text-align: center; */
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 30px;
+ }
+ .date-time{
+     padding-bottom: 24px;
+ }
+ .one {
+    
+     margin-bottom: 20px;
+ }
+ .speakers-hr {
+     margin-top: 1170px;
+ }
+ .buttons {
+     padding-top: 25px;
+ }
+ .logo {
+    
+     padding-top: 10px;
+ }
+ .buttons {
+     padding-top: 18px;
+ }
+ .three-e{
+     padding-left: 13px;
+ }
+ .speakers-hr{
+     margin-top: 0px;
+ }
+ .bx-wrapper {
+     -moz-box-shadow: 0 0 5px #fff;
+     -webkit-box-shadow: 0 0 5px #fff; 
+     box-shadow: 0 0 5px #fff; 
+     border: 5px solid #fff;
+     
+ }
+ .allfour {
+     margin-right: 21px;
+ }
+ 
+ .allfour {
+     display: inline-grid;
+     margin-left: 45px;
+     padding-right: 0px;
+ }
+ .tag{display: inherit;
+     text-align: center;
+     margin: 8px auto;
+     padding-bottom: 0px;
+     padding: 4px;
+     margin: 13px auto 7px auto;
+ }
+ .after-form-hr {
+     margin-top: 90px;
+ }
+ .conference-schedule {
+     text-align: center;
+     margin-top: 100px;
+ }
+ .inner-image {
+     
+     margin: 30 auto;
+ }   
+ .celebration-day{
+     padding-bottom: 0px;
+ }
+ .Ticket-Optionen {
+     font-size: 25px;}
+     .Mageschneidert {
+         font-size: 17px;}
+ .one{
+     height: 398px;
+ }           
+ .button1 {
+     display: inline;
+     margin-right: 10px;
+ }
+ .button {
+     font-size: 8px;
+ }
+ .page-6{
+     width: 90%;
+ }
+ .form-ab {
+     margin-left: auto; 
+     margin-left: 15px;
+ }
+ .new9{
+     width: min-content;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+ }
+ .leaf9::before {
+     left: -47px;
+ }
+ .leaf9::after {
+     top: 26px;
+     left: -42px;
+ }
+ .info9data2{
+     width: 80%;
+     font-size: 12;
+     padding-left: 15;
+ }
+ .leaf9-2::before{
+     left: -5px;
+ }
+ 
+ .leaf9-2::after{
+     left: 1px;
+ }
+ .info9data{
+     font-size: 12px;
+ }
+ .info-i9 {
+     display: block;
+     margin-top: 0px; 
+ }
+ .info9-2{
+     padding: 0px;
+ }
+ .i9-2 {
+    
+     height: 239px;
+ }
+ .button8{
+     padding-top: 10px;
+   }
+   .button7{
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .heading{
+     margin-bottom: 17px;
+   }
+   .info9data2{
+     margin-left: 47px;
+     padding-left: 0px;
+   }
+   .tag{
+     padding: 8px;
+ }
+ .allfour{
+     padding-top: 0px;
+ }
+ }

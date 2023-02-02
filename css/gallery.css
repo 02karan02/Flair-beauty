@@ -1,0 +1,36 @@
+
+
+/*section gallery*/
+.gallery{
+    background-image: url("image/bg-3.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .gallery-inn{
+  
+  }
+  .titleg{
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 5.43px;
+    
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 16px;
+  }
+  .textg{
+  
+    font-family: PlayfairDisplay;
+    font-size: 50px;
+    font-style: italic;
+    line-height: 1.24;
+    letter-spacing: -0.75px;
+    padding-bottom: 52px;
+    color: #ffffff;
+  }
+  
